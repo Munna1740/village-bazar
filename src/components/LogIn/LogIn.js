@@ -1,5 +1,6 @@
 import React from 'react';
 import Auth from './useAuth';
+import './LogIn.css';
 
 const LogIn = () => {
     const auth = Auth();
@@ -18,8 +19,8 @@ const LogIn = () => {
         });
     }
     return (
-        <div>
-            <h1>This is login Component..</h1>
+        <div className="signInWithGoogle">
+            <h1>Please Login</h1>
 
             {
                 auth.user ? <button onClick={handleSignOut}>Sign out</button> :

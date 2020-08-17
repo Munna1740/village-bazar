@@ -28,7 +28,7 @@ const Ship = () => {
         {errors.zip && <span className="error">Zip code is required</span>}
         <input name="country" ref={register({ required: true })} placeholder="Country" />
         {errors.country && <span className="error">Country is required</span>}
-        <input style={{backgroundColor:"#30EF41"}} type="submit" />
+        <input style={{backgroundColor:"#27CF36"}} type="submit" />
       </form>
     );
 };

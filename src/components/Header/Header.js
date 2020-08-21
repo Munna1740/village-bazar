@@ -2,8 +2,6 @@ import React from 'react';
 import logo from '../../images/villageBazar.png';
 import './Header.css';
 import {useAuth} from '../LogIn/useAuth';
-import { Link } from 'react-router-dom';
-
 
 
 const Header = () => {
